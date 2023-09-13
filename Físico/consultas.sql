@@ -1,4 +1,3 @@
--- Selecione todos os ninjas e seus estilos ninja (se tiverem) na Vila da Folha.
 SELECT n.nome, en.estilo
 FROM ninja n
 LEFT JOIN estilo_ninja en ON n.id = en.id_ninja
