@@ -1,8 +1,3 @@
-SELECT n.nome, en.estilo
-FROM ninja n
-LEFT JOIN estilo_ninja en ON n.id = en.id_ninja
-WHERE n.num_time = 1;
-
 -- Encontre todos os ninjas que desenvolveram o jutsu 'Rasengan'.
 SELECT n.nome
 FROM ninja n
